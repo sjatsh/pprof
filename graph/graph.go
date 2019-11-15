@@ -17,13 +17,14 @@ package graph
 
 import (
 	"fmt"
-	"github.com/google/pprof/profile"
 	"math"
 	"path/filepath"
 	"regexp"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/google/pprof/profile"
 )
 
 var (

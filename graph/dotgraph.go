@@ -16,11 +16,12 @@ package graph
 
 import (
 	"fmt"
-	"github.com/google/pprof/internal/measurement"
 	"io"
 	"math"
 	"path/filepath"
 	"strings"
+
+	"github.com/google/pprof/measurement"
 )
 
 // DotAttributes contains details about the graph itself, giving

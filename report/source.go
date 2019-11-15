@@ -20,8 +20,8 @@ package report
 import (
 	"bufio"
 	"fmt"
-	"github.com/google/pprof/internal/graph"
-	"github.com/google/pprof/internal/measurement"
+	"github.com/google/pprof/graph"
+	"github.com/google/pprof/measurement"
 	"html/template"
 	"io"
 	"os"

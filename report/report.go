@@ -18,8 +18,8 @@ package report
 
 import (
 	"fmt"
-	"github.com/google/pprof/internal/graph"
-	"github.com/google/pprof/internal/measurement"
+	"github.com/google/pprof/graph"
+	"github.com/google/pprof/measurement"
 	"io"
 	"path/filepath"
 	"regexp"
